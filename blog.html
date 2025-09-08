@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background: url('clg.jpg') no-repeat center center/cover;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #f1f1f1;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .content {
+      width: 65%;
+    }
+
+    .content article {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+
+    .content h2 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+
+    .sidebar {
+      width: 30%;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .sidebar img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+
+    .sidebar h3 {
+      margin-top: 10px;
+      color: #ffcc00;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Personal Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Articles</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <div class="container">
+    <!-- Blog Articles -->
+    <div class="content">
+      <article>
+        <h2>My First Blog Post</h2>
+        <p>Established in July 1909, Patna Law College emerged as a distinguished institution dedicated solely to legal education. 
+        Before its founding, legal studies were conducted at Patna College. Initially affiliated with Calcutta University until 1917,
+        the college seamlessly transitioned its affiliation to Patna University upon its establishment that year. Until January 1, 1952,
+        Patna Law College operated as a government institution, functioning independently. Subsequently, it gained status as a constituent 
+        college of Patna University under the Patna University Act of 1951.
+        This centre of higher education has a rich legacy, having produced notable legal luminaries such as two Chief Justices of India,
+        Mr. Justice B.P. Sinha and Mr. Justice L.M. Sharma, and the First Attorney General of India from Bihar, Sri Lal Narain Sinha. 
+        Its alumni also include a multitude of Supreme Court and High Court judges, esteemed jurists, accomplished advocates, renowned academicians, 
+        and proficient administrators, all occupying prestigious positions across various domains.</p>
+      </article>
+      <article>
+        <h2>Another Article</h2>
+        <p>This is where I’ll post more articles and insights. Stay tuned!</p>
+      </article>
+    </div>
+
+    <!-- Sidebar (Personal Info) -->
+    <aside class="sidebar">
+      <img src="profile.jpg" alt="Publisher Photo">
+      <h3>Roushan Kumar</h3>
+      <p>LLB Student</p>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Personal Blog | Designed by Roushan</p>
+  </footer>
+
+</body>
+</html>
